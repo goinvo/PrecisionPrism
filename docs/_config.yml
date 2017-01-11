@@ -1,1 +1,17 @@
-theme: jekyll-theme-cayman
+# Setup
+title:        Precision Prism
+tagline:      .
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       goinvo
+  url:        http://www.goinvo.com 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
