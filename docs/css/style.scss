@@ -1,0 +1,38 @@
+---
+---
+
+// add bootstrap variable settings here
+
+@import 'bootstrap';
+
+
+// add more css stuff here
+
+body {
+  padding-top: 50px;
+}
+
+.content {
+  padding: 40px 15px;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #3EAEAC;
+}
+
+.navbar-toggle {
+	border: grey;
+}
+
+.icon-bar {
+	background: #3EAEAC;
+}
+
+.navbar-collapse {
+	background-color: white;;
+}
+
+.dark-banner {
+	background-color: #3EAEAC;
+	padding: 0 4rem;
+}

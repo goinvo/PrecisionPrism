@@ -1,17 +1,37 @@
-# Setup
-title:        Precision Prism
-tagline:      .
-baseurl:      ""
-paginate:     1
+###########
+# site.url, site.title
 
-# About/contact
+title: 'Precision Prism'
+
+## note: 
+#  use site.path in your templates to make it work for both protocols e.g. http and https
+#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
+path: 
+url:  'http://precisionprism.org'
+
+
+
+########
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+
 author:
   name:       goinvo
   url:        http://www.goinvo.com 
+  email:      info@goinvo.com
 
-# Gems
-gems:
-  - jekyll-paginate
 
-#Others
-markdown: kramdown
+exclude:
+- README.md
+
+
+safe: true
+lsi: false
+incremental: true
+
