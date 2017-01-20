@@ -18,6 +18,9 @@ h1, h2, h3, h4, h5 {
 
 p {
 	margin-bottom: 20px;
+
+li {
+  margin: 7px 0px;
 }
 
 .navbar {
@@ -165,4 +168,78 @@ hr {
 
 .footer a {
 	margin-right: 15px;
+}
+
+// collaborate page
+.center-text {
+  text-align: center;
+}
+
+.smaller-container {
+  width: 64rem;
+  margin: auto;
+}
+
+.smallest-container {
+  width: 38rem;
+  margin: auto;
+}
+
+.header-spacing {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.input-underline {
+  width: 100%;
+  border: 0px solid #000;
+  border-bottom-width: 1px;
+  background-color: transparent;
+  .input-underline:focus {
+     outline: none;
+  }
+}
+
+.white-button {
+  width: 100%;
+  height: 47px;
+  margin: 29px 0px;
+  border-radius: 5px;
+  background-color: white;
+  border-color: white;
+  box-shadow: 1px 1px 7px #bbb;
+}
+
+.blue-button {
+  width: 100%;
+  height: 47px;
+  margin: 29px 0px;
+  border-radius: 5px;
+  background-color: #3A6792;
+  border-color: #3A6792;
+  color: white;
+  box-shadow: 1px 1px 7px #042749;
+}
+
+.user-sponsor-list {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  p {
+    margin-bottom: 2px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  .smallest-container {
+    width: 95%;
+  }
+  .smaller-container {
+    width: 95%;
+  }
+  .center-text {
+    text-align: left;
+  }
 }
