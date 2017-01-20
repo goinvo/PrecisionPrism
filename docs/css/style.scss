@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 2rem;
 }
 
+p {
+	margin-bottom: 20px;
+}
+
 .navbar {
 	background-color: white;
 	box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.1);
@@ -85,6 +89,12 @@ a.btn-large {
 	width: 100%;
 	max-width: 450px;
 	font-size: 17px
+}
+
+hr {
+	border: none;
+	height: 13px;
+	background: url('../images/icon-separator.svg') no-repeat top center;
 }
 
 .image-bullet {
