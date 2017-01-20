@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.04453125" y="0.825" width="40.5422148" height="40.5422148" rx="4.4"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="40.5422148" height="40.5422148" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-31.000000, -4417.000000)">
+            <g id="Group-6" transform="translate(31.000000, 4417.000000)">
+                <use id="Rectangle-123-Copy-6" stroke="#3EAEAC" mask="url(#mask-2)" stroke-width="4.4" xlink:href="#path-1"></use>
+                <rect id="Rectangle-126-Copy-10" fill="#FFFFFF" x="34.8560568" y="17.952096" width="9.2066643" height="6.16417087"></rect>
+                <rect id="Rectangle-126-Copy-14" fill="#FFFFFF" x="8.53143318" y="37.4009078" width="8.23615255" height="6.23726381"></rect>
+                <rect id="Rectangle-11-Copy-16" fill="#3EAEAC" transform="translate(20.538441, 21.843918) rotate(-270.000000) translate(-20.538441, -21.843918) " x="18.1772523" y="14.8019935" width="4.72237823" height="14.0838487"></rect>
+                <rect id="Rectangle-11-Copy-17" fill="#3EAEAC" transform="translate(20.538441, 21.843918) rotate(-180.000000) translate(-20.538441, -21.843918) " x="18.1772523" y="14.8019935" width="4.72237823" height="14.0838487"></rect>
+                <ellipse id="Oval-63-Copy-9" stroke="#3EAEAC" stroke-width="2.2" fill="#FFFFFF" cx="39.400001" cy="15.0771072" rx="3.63840389" ry="3.63840389"></ellipse>
+                <ellipse id="Oval-63-Copy-15" stroke="#3EAEAC" stroke-width="2.2" fill="#FFFFFF" cx="17.6233822" cy="40.0556026" rx="3.63840389" ry="3.63840389"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

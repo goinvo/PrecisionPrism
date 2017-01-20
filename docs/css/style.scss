@@ -4,9 +4,6 @@
 
 @import 'bootstrap';
 
-
-// add more css stuff here
-
 body {
   padding-top: 50px;
   font-size: 17px;
@@ -47,7 +44,7 @@ h1 span {
 .edge-to-edge {
 	margin-left: -15px;
 	margin-right: -15px;
-	padding: 20px 0 30px;
+	padding: 20px 15px 40px;
 }
 
 .masthead-dark {
@@ -63,9 +60,18 @@ h1 span {
 	color: white;
 }
 
+.masthead-dark a {
+	color: #5ECFCD;
+}
+
 .masthead-light {
 	background: #E7FCFF;
 	background: linear-gradient(to bottom, #FFFFFF 0%,#E7FCFF 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.pull-down {
+	margin-bottom: -70px;
+	text-align: center;
 }
 
 a.btn-large {
@@ -74,8 +80,79 @@ a.btn-large {
 	border: none;
 	border-radius: 4px;
 	color: #C5FFFE;
+	margin-top: 10px;
 	padding: 10px 90px;
 	width: 100%;
 	max-width: 450px;
+	font-size: 17px
 }
 
+.image-bullet {
+	margin-bottom: 20px;
+}
+
+.image-bullet .icon {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 53px;
+	width: 53px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.image-bullet .description {
+	width: calc(100% - 100px);
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.icon-environment {
+	background: url('../images/icon-environment.svg');
+}
+
+.icon-genetics-biology {
+	background: url('../images/icon-genetics-biology.svg');
+}
+
+.icon-individual-behavior {
+	background: url('../images/icon-individual-behavior.svg');
+}
+
+.icon-social-circumstances {
+	background: url('../images/icon-social-circumstances.svg');
+}
+
+.icon-medical-care {
+	background: url('../images/icon-medical-care.svg');
+}
+
+.icon-records {
+	background: url('../images/icon-records.svg');
+}
+
+.icon-chart {
+	background: url('../images/icon-chart.svg');
+}
+
+.icon-diagnostics {
+	background: url('../images/icon-diagnostics.svg');
+}
+
+.icon-services {
+	background: url('../images/icon-services.svg');
+}
+
+.icon-access {
+	background: url('../images/icon-access-anywhere.svg');
+}
+
+.footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.footer a {
+	margin-right: 15px;
+}
