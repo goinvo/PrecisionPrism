@@ -1,3 +1,5 @@
+---
+---
 // add bootstrap variable settings here
 
 @import 'bootstrap';
@@ -35,7 +37,7 @@ h1 span {
 }
 
 .navbar-toggle {
-	border: grey;
+	border: #ddd;
 }
 
 .icon-bar {
@@ -43,7 +45,7 @@ h1 span {
 }
 
 .navbar-collapse {
-	background-color: white;;
+	background-color: white;
 }
 
 .edge-to-edge {
@@ -89,7 +91,7 @@ a.btn-large {
 	padding: 10px 90px;
 	width: 100%;
 	max-width: 450px;
-	font-size: 17px
+	font-size: 17px;
 }
 
 hr {
