@@ -170,6 +170,36 @@ hr {
 	margin-right: 15px;
 }
 
+// goals page
+#milestones {
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+// designs page
+#using-the-designs {
+  p {
+    margin-bottom: 20px;
+  }
+  h3 {
+    margin-left: 18px;
+  }
+}
+
+#designs-categories {
+  padding: 1px 0px 14px 0px;
+  div {
+    padding-left: 12px;
+  }
+  div:nth-child(even) {
+    opacity: 0.3;
+  }
+  img {
+    float: right;
+  }
+}
+
 // collaborate page
 .center-text {
   text-align: center;
