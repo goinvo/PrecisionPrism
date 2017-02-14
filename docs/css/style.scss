@@ -72,13 +72,49 @@ h1 span {
 }
 
 .masthead-light {
-	background: #E7FCFF;
-	background: linear-gradient(to bottom, #FFFFFF 0%,#E7FCFF 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: #F1FDFF;
+	// background: linear-gradient(to bottom, #FFFFFF 0%,#E7FCFF 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .pull-down {
 	margin-bottom: -70px;
 	text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.flex-icons {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: top;
+  align-items: top;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-content: flex-end;
+  align-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.doh-parts {
+  margin: 10px;
+  text-align: center;
+  width: 125px;
+}
+
+.icon-boxed {
+  border-radius: 6px;
+  border: 1px solid #D1D3D7;
+  width: 75px;
+  height: 75px;
+  margin: 0 25px 3px;
+  padding: 15px 5px 0;
+  // vertical-align: middle;
 }
 
 a.btn-large {
@@ -257,7 +293,7 @@ hr {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 30px;
+    font-size: 34px;
   }
   .smallest-container {
     width: 95%;
