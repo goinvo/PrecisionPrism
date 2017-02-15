@@ -10,7 +10,7 @@ They are to be shared, used, and critiqued to ensure that future precision medic
 
 
 ## Get Involved
-Email info@goinvo.com if you're interested in participating in the following ways:
+Email [info@goinvo.com](mailto:info@goinvo.com) if you're interested in participating in the following ways:
 
 ### Flirt.
 We need a diverse group of patients, care teams, clinicians, data scientists, public health professionals, and researchers to view and provide critical feedback for the Precision Prism.
