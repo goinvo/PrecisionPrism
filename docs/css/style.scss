@@ -4,9 +4,9 @@
 @import 'bootstrap';
 
 body {
-  padding-top: 50px;
   font-size: 17px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 50px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -93,14 +93,14 @@ p {
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
-  -webkit-align-items: top;
-  align-items: top;
   -webkit-justify-content: center;
   justify-content: center;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   -webkit-align-content: flex-end;
   align-content: flex-end;
+    -webkit-align-items: top;
+  align-items: top;
   margin-bottom: 15px;
 }
 
@@ -111,32 +111,31 @@ p {
 }
 
 .icon-boxed {
-  border-radius: 6px;
   border: 1px solid #D1D3D7;
-  width: 75px;
+  border-radius: 6px;
   height: 75px;
   margin: 0 25px 3px;
   padding: 15px 5px 0;
-  // vertical-align: middle;
+  width: 75px;
 }
 
 a.btn-large {
   background-color: rgba(57,106,158,0.8);
-  box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.55);
   border: none;
   border-radius: 4px;
+  box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.55);
   color: #C5FFFE;
+  font-size: 17px;
   margin-top: 10px;
+  max-width: 450px;
   padding: 10px 90px;
   width: 100%;
-  max-width: 450px;
-  font-size: 17px;
 }
 
 hr {
+  background: url('../images/icon-separator.svg') no-repeat top center;
   border: none;
   height: 13px;
-  background: url('../images/icon-separator.svg') no-repeat top center;
 }
 
 .image-bullet {
@@ -144,20 +143,20 @@ hr {
 }
 
 .image-bullet .icon {
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: top left;
-  height: 53px;
-  width: 53px;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: inline-block;
+  height: 53px;
   vertical-align: middle;
+  width: 53px;
 }
 
 .image-bullet .description {
-  width: calc(100% - 100px);
   display: inline-block;
-  vertical-align: middle;
   margin-left: 10px;
+  vertical-align: middle;
+  width: calc(100% - 100px);
 }
 
 .icon-records {
@@ -185,46 +184,38 @@ hr {
   padding-bottom: 15px;
 }
 
-#designs-categories {
-  padding: 1px 0px 14px 0px;
-  div {
-    padding-left: 12px;
-  }
-  div:nth-child(even) {
-    opacity: 0.3;
-  }
-  img {
-    float: right;
-  }
+.design-comps img {
+  margin-bottom: 30px;
+  width: 100%;
 }
 
 .input-underline {
-  width: 100%;
+  background-color: transparent;
   border: 0px solid #000;
   border-bottom-width: 1px;
-  background-color: transparent;
+  width: 100%;
   .input-underline:focus {
      outline: none;
   }
 }
 
 .white-button {
-  width: 100%;
-  height: 47px;
-  margin: 29px 0px;
-  border-radius: 5px;
   background-color: white;
   border-color: white;
+  border-radius: 5px;
   box-shadow: 1px 1px 7px #bbb;
+  height: 47px;
+  margin: 29px 0px;
+  width: 100%;
 }
 
 .blue-button {
-  width: 100%;
-  height: 47px;
-  margin: 29px 0px;
-  border-radius: 5px;
   background-color: #3A6792;
   border-color: #3A6792;
-  color: white;
+  border-radius: 5px;
   box-shadow: 1px 1px 7px #042749;
+  color: white;
+  height: 47px;
+  margin: 29px 0px;
+  width: 100%;
 }
