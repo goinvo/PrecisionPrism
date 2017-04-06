@@ -27,6 +27,10 @@ p {
   margin-bottom: 20px;
 }
 
+.low_opacity {
+  opacity: 0.5;
+}
+
 .navbar {
   background-color: white;
   box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.1);
@@ -218,4 +222,81 @@ hr {
   height: 47px;
   margin: 29px 0px;
   width: 100%;
+}
+
+.remove-edge-padding {
+  padding: 0px;
+}
+
+.edge-padding {
+  padding: 0px 30px;
+}
+
+.full-width {
+  max-width: 100%;
+}
+
+// STRATEGY PAGE
+.timeline_division {
+  width: 100%;
+  height: 1px;
+  margin: 30px 0px 30px 0px;
+  background-color: #8298B0;
+}
+#selfcare_img {
+  max-width: 300px;
+  margin: 40px;
+}
+.paragraph_spacing {
+  margin: 50px auto;
+}
+
+// ABOUT PAGE
+.about_projects {
+  margin: 70px 0px 0px 0px;
+  h4 {
+    margin: 22px 0px 10px 0px;
+  }
+  img {
+    width: 100%;
+  }
+}
+.about_portrait {
+  margin: 80px 0px 10px 0px;
+  img {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 479px) {
+  #healthcare_partners {
+    padding: 45px 0px 45px 0px;
+    margin: 0 auto;
+    text-align: center;
+    h3 {
+      opacity: 0.5;
+    }
+    td {
+      padding: 10px 15px;
+      img {
+        max-height: 47%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 480px) {
+  #healthcare_partners {
+    padding: 45px 0px 45px 0px;
+    margin: 0 auto;
+    text-align: center;
+    h3 {
+      opacity: 0.5;
+    }
+    td {
+      padding: 10px 15px;
+      img {
+        max-height: 70%;
+      }
+    }
+  }
 }
