@@ -5646,6 +5646,9 @@ p + h1, ul + h1 {
 p {
   margin-bottom: 20px; }
 
+.link_color {
+  color: black; }
+
 .low_opacity {
   opacity: 0.5; }
 
@@ -5653,8 +5656,10 @@ p {
   background-color: white;
   box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.1); }
 
-#navbar a {
-  color: #052F5F; }
+#navbar {
+  height: 168px; }
+  #navbar a {
+    color: #052F5F; }
 
 .navbar-toggle {
   border: #ddd; }
@@ -5746,6 +5751,9 @@ hr {
   border: none;
   height: 13px; }
 
+.extra_top_spacing {
+  margin-top: 50px; }
+
 .image-bullet {
   margin-bottom: 20px; }
 
@@ -5836,6 +5844,12 @@ hr {
 .paragraph_spacing {
   margin: 50px auto; }
 
+.elements_bg_image {
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: auto 90%;
+  background-position: center -2px; }
+
 .design_category {
   position: relative;
   width: 100%;
@@ -5853,22 +5867,72 @@ hr {
     .design_category div h3 {
       margin: 18px 0px 9px 0px; }
 
-#mobile_careplans {
-  margin-top: 30px;
-  text-align: center; }
+#hover_prototypes div, #hover_concepts div, #hover_patterns div {
+  transition: all 0.3s; }
 
-.about_projects {
-  margin: 70px 0px 0px 0px; }
-  .about_projects h4 {
+#hover_prototypes div:hover, #hover_concepts div:hover, #hover_patterns div:hover {
+  background-size: auto 105%; }
+
+#hover_models div {
+  background-size: 101%;
+  transition: all 0.3s; }
+
+#hover_models div:hover {
+  background-size: 106%; }
+
+@media screen and (max-width: 480px) {
+  #hover_principles div {
+    background-position: center -60px;
+    background-size: 100%;
+    transition: all 0.3s; }
+  #hover_principles div:hover {
+    background-size: 105%; } }
+
+@media screen and (min-width: 481px) {
+  #hover_principles div {
+    background-position: center -200px;
+    background-size: 100%;
+    transition: all 0.3s; }
+  #hover_principles div:hover {
+    background-size: 105%; } }
+
+#mobile_careplans {
+  text-align: center; }
+  #mobile_careplans video {
+    margin: 60px 0px 30px 0px;
+    box-shadow: 1px 4px 13px #bbb; }
+
+#patterns_image {
+  margin-top: 40px;
+  text-align: center; }
+  #patterns_image img {
+    max-width: 425px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 1px 4px 13px #bbb; }
+
+.principles_left_align {
+  padding-left: 0; }
+  .principles_left_align li {
+    margin-left: 0; }
+  .principles_left_align p {
+    padding-left: 0; }
+
+.studio_photo {
+  width: 108%;
+  margin-left: -15px; }
+
+.projects {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 70px; }
+  .projects h4 {
     margin: 22px 0px 10px 0px; }
-  .about_projects img {
+  .projects img {
     width: 100%; }
 
 .about_portrait {
-  margin: 80px 0px 10px 0px; }
-  .about_portrait img {
-    margin-bottom: 10px;
-    width: 100%; }
+  margin: 50px 0px 10px 0px; }
 
 @media screen and (max-width: 479px) {
   #healthcare_partners {
