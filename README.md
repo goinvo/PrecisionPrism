@@ -38,7 +38,6 @@ By becoming a sponsor you join part of the precision medicine movement.
 - Located in `docs/`.
 - Built using Jekyll https://jekyllrb.com/ – make sure Jekyll is installed via `gem install jekyll`.
 - To serve the website locally, change directory to `docs` and run `jekyll serve`
-- Uses GitHub Pages.
 
 
 ## License
