@@ -1,0 +1,84 @@
+Precision Health Definition
+(Version 1. 08.AUG.2017)
+
+Health consists of ten-dimensions (goal, data, team, environment, community, workflow, life flow,
+setting, time, learning). While each dimension depends on all the others, the resulting scenarios can be
+too complex to grasp or use in real time. We need the right information about the right person or group
+of people at the right time in the right manner for the right viewer. Precision Health , makes it easier for
+clinicians, patients, care teams, and communities to make faster, more informed health decisions.
+Precision Health draws on many building blocks, including Precision Medicine, the Standard Health
+Record, Data Completeness, Determinants of Health, Scenarios of Care, an Intervention Engine, and
+Precision Prism.
+
+
+
+Standard Health Record (SHR)
+
+A unified language to describe our health. The definition of a human, in code.
+
+The Standard Health Record (SHR) gives us a unified language to describe our health. SHR provides a U.S.
+standard for core health information about a person. This standard includes definitions, language,
+grammar, and syntax for capturing life information from the care team, home sensors, communities, or
+our mobile phones.
+
+
+
+Determinants of Health (DoH)
+
+Data about our entire life. The physiologic, environmental, and behavioral framework that aims Precision Health toward priorities,
+causes and connections.
+
+Our health record contains more than our medical care. It contains data about our entire life. The
+elements within the SHR includes many areas that affect our quality of health: our individual behavior,
+social circumstances, genetics and biology, medical care and the environment. Taken together these
+factors are called the Determinants of Health (DoH) . Clinical care, the focus of our health systems,
+account for only 11% of our overall health. A holistic view of one’s health requires the total picture, a ll
+the determinants.
+
+
+
+Data Completeness
+
+A critical mass of accurate data. Full, accurate data sets feed Precision Prism.
+
+As data creators, users and programmers define and refine the dataset of an individual and expand to
+use of data about our entire lives, we face the challenge of significant data gaps. Gaps can include
+missing data elements without standards , empty data cells, and data of uncertain accuracy. Data
+completeness contains inherent tension. As gaps fill, new ones appear. Since data completeness affects
+analysis, receiving new data can improve data completeness and accuracy.
+
+
+
+Scenarios of Care
+
+The settings for using health data. The context for the specific view within Precision Prism.
+
+Scenarios of care consist of realistic verbal and pictorial snapshots or a combination of events relevant
+to the health journey of a person, health team, and/or community. The scenarios include desired goals
+and outcomes, the players, the flow of events, the conditions (DoH) and treatment and Clinical Decision
+Support.
+
+
+
+Intervention Engine
+
+New insights through data mining and predictive analysis.
+
+Dynamic design allows the Precision Prism to evolve and learn to drive the right care, at the right time,
+with the right behavior, for the right person or communities.
+Data mining and predictive analysis continuously provide new insights about meeting individual,
+population, and global goals and health outcomes. The Intervention Engine identifies likely risks to the
+health team and community and potential solutions in lifestyle, treatment, workflow, and environment
+and informs actionable insights, decisions and action. The Intervention Engine feeds goal and outcome
+attainment data back into the data pool to increase its usefulness in making decisions.
+prediction behavior changes
+
+
+
+Precision Prism
+
+An open source catalog of designs to view and interact with Precision Health information.
+
+Using Precision Health data requires the right viewer of the right information about the right person or
+group of people at the right time . Think of peering into a kaleidoscope of data - beautiful, complex,
+overwhelming, changing with every twist and turn. Precision Prism makes sense of it.
